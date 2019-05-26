@@ -52,4 +52,10 @@ As primeiras redes com o conceito de arquiteturas profundas e com operações de
 [REF3,REF4], e foram denominadas LeNets, as redes LeNets foram desenvolvidas para o reconhecimento de padrões em imagens. 
 A Figura 1 ilustra uma arquitetura simples da rede LeNet para classificação de caracteres.
 
-![LECUN1](https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/tree/master/Images/lecun.png)
+
+<p align="center"> Figura 1 - Rede Convolutiva proposta por Lecun</p>
+
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/tree/master/Images/lecun.png">
+</p>
+<p align="center"> Fonte: REF3 </p>
