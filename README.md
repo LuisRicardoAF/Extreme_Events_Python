@@ -112,6 +112,22 @@ O notebook a seguir descreve todos os passos para construção do modelo de Deep
 <p align="center"> Fonte: Produção do Autor. </p>
 
 ## Resultados
+Os resultados obtidos com a abordagem são descritos na Tab.1. Os testes foram feitos para 544 imagens sendo 50% para eventos e 50% para não-eventos.
 
+<p align="center"> Tabela 1 - Resultados de Classificação de Eventos Extremos</p>
+
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/tab.png">
+</p>
+<p align="center"> Fonte: Produção do Autor. </p>
+
+A Figura 5 indica o comportamento do modelo no treinamento e na validação do modelo. A curva revela que o modelo generaliza o conjunto de treinamento em quase 99% das amostras, para o conjunto de teste obtém-se 98,5% na eficiência da classificação. Os índices de precisão indicam o bom desempenho na classificação binária entre evento extremo e não-evento.
+
+<p align="center"> Figura 5 - Resultados do Treinamento e Validação</p>
+
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/train.png">
+</p>
+<p align="center"> Fonte: Produção do Autor. </p>
 
 ## Conclusão
