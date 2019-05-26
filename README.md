@@ -120,7 +120,7 @@ O notebook a seguir descreve todos os passos para construção do modelo de Deep
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
-## Resultados
+## Resultados e Discussão
 Os resultados obtidos com a abordagem são descritos na Tab.1. Os testes foram feitos para 544 imagens sendo 50% para eventos e 50% para não-eventos.
 
 <p align="center"> Tabela 1 - Resultados de Classificação de Eventos Extremos</p>
@@ -130,7 +130,7 @@ Os resultados obtidos com a abordagem são descritos na Tab.1. Os testes foram f
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
-A Figura 6 indica o comportamento do modelo no treinamento e na validação do modelo. A curva revela que o modelo generaliza o conjunto de treinamento em quase 99% das amostras, para o conjunto de teste obtém-se 98,5% na eficiência da classificação. Os índices de precisão indicam o bom desempenho na classificação binária entre evento extremo e não-evento.
+A Figura 6 indica o comportamento do modelo no treinamento e na validação do modelo. A curva revela que o modelo generaliza o conjunto de treinamento em quase 99% das amostras, para o conjunto de teste obtém-se 98,5% na eficiência da classificação.
 
 <p align="center"> Figura 6 - Resultados do Treinamento e Validação</p>
 
@@ -139,4 +139,31 @@ A Figura 6 indica o comportamento do modelo no treinamento e na validação do m
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
-## Conclusão
+A classificação de eventos extremos obteve a acurácia de 99,84% no conjunto de
+treinamento (66% de toda amostra de imagens) e 98,53% no conjunto de testes (33%
+de toda a amostra de imagens), este desempenho ilustra um mapeamento que cobre
+boa parte das características de eventos extremos sendo capaz de classificar com uma
+acurácia de 98%, 597 imagens que não foram submetidas ao modelo
+
+É possível observar uma anomalia durante o treinamento entre a época 60 e 80, em
+que o erro do modelo aumenta significativamente, ou seja, o modelo erra todos os
+exemplos de teste. Após esta anomalia o modelo retorna ao aprendizado diminuindo
+ainda mais o erro obtido anteriormente.
+
+Em relação às caracteristicas treinadas pela rede convolutiva as Figuras 7 e 8 ilustram como o modelo extraiu as principais caracteristicas do padrão de ciclone e furação para identificar os eventos extremos sem confundir com eventos considerados como alta concentração de nuvens e quando regioes sem nuvens são apresentadas ao classificador.
+
+<p align="center"> Figura 7 - Padrao de Evento Extremo</p>
+
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/pos (5).png">
+</p>
+<p align="center"> Fonte: Produção do Autor. </p>
+
+A figura 8 ilustra a extração do padrão de evento extremo para o treinamento do classificador.
+
+<p align="center"> Figura 8 - Extração de Caracteristicas de Evento Extremo</p>
+
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/pos (3).png">
+</p>
+<p align="center"> Fonte: Produção do Autor. </p>
