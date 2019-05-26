@@ -59,3 +59,26 @@ A Figura 1 ilustra uma arquitetura simples da rede LeNet para classificação de
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/lecun.png">
 </p>
 <p align="center"> Fonte: REF3 </p>
+
+As redes neurais convolutivas são compostas por uma sequência de camadas com funções de processamento específicas:
+
+- Camada de entrada: composta por uma matriz multidimensional, descrevendo os dados. Por exemplo: Vetores de
+características, imagens, sinais, etc.
+
+- Camada convolucional: esta camada é responsável pelas operações de convolução e processamento de características. De maneira simples, a camada de convolução é responsável por mapear as características principais dos dados de entrada.
+
+- Camada de Pooling: esta camada é responsável por sumarizar o processamento feito nas camadas de convolução, esta operação abstrai do resultante da convolução as características mais evidentes, reduzindo assim, a dimensionalidade dos dados.
+    
+- Camada Totalmente Conectada: esta camada se comporta como uma camada de processamento de redes neurais clássicas, como a rede Multilayer Perceptron. Nesta camada são inseridos os parâmetros resultantes das camadas anteriores e o treinamento do modelo é feito pelo algoritmo de retro-propagação do erro (*backpropagation*)
+
+
+O treinamento das redes CNNs ocorre de forma similar ao modelo clássico de RNAs, quando se atinge as camadas totalmente conectadas. Cada uma das camadas são submetidas a um processamento não-linear executado por uma função de ativação, como por exemplo, a função sigmoidal, ReLu, softmax, tangente hiperbólica, etc. Estas funções podem ser escolhidas de maneira personalizada de acordo com as necessidades de determinado problema.
+
+Desta forma, a aplicação de redes CNNs para avaliação e classificação de objetos em imagens de satélite é justificável. 
+
+## Dados utilizados e Principais Características
+O acesso aos dados usados neste trabalho pode ser visto no seguinte notebook, que explica cada passo para o acesso e manipulaçã das informações.
+
+### [Manipulando dados brutos GOES E HURSAT](Dados_Acesso_HURSAT_GOES16.ipynb)
+
+
