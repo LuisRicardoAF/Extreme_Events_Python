@@ -94,3 +94,18 @@ O acesso aos dados usados neste trabalho pode ser visto no seguinte notebook, qu
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/hursat.png">
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
+
+
+## Solução
+
+O notebook a seguir descreve todos os passos para construção do modelo de Deep Learning para construção do classificador de eventos extremos. A figura 4 ilustra como o processo do tratamento de dados é feito e como os dados são inseridos no modelo de rede neural convolutiva.
+
+
+<p align="center"> Figura 4 - Classificador de Eventos Extremos Utilizando Redes Convolutivas</p>
+
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/Fluxo_Eventos.png">
+</p>
+<p align="center"> Fonte: Produção do Autor. </p>
+
+
