@@ -40,7 +40,7 @@ generalização rígida (*overfitting*). Além disso quanto maior for a dimensio
 será a quantidade de camadas para descrever estes dados. Em certos pontos, o número de camadas cresce exponencialmente à 
 medida que os dados tornam-se mais complexos.
 
-\subsection{Redes Neurais Convolutivas}
+### Redes Neurais Convolutivas
 
 Redes Neurais Convolutivas ou Redes Convolucionais, *Convolutional Neural Networks* (CNNs) são RNAs que possuem uma 
 arquitetura profunda e hierárquica, ou seja, redes CNNs tem a capacidade de abstrair informações dos dados brutos 
@@ -52,4 +52,4 @@ As primeiras redes com o conceito de arquiteturas profundas e com operações de
 [REF3,REF4], e foram denominadas LeNets, as redes LeNets foram desenvolvidas para o reconhecimento de padrões em imagens. 
 A Figura 1 ilustra uma arquitetura simples da rede LeNet para classificação de caracteres.
 
-
+![LECUN1](https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/tree/master/Images/lecun.png)
