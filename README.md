@@ -55,7 +55,6 @@ A Figura 1 ilustra uma arquitetura simples da rede LeNet para classificação de
 
 
 <p align="center"> Figura 1 - Rede Convolutiva proposta por Lecun</p>
-
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/lecun.png">
 </p>
@@ -83,14 +82,12 @@ O acesso aos dados usados neste trabalho pode ser visto no seguinte notebook, qu
 ### [Manipulando dados brutos GOES E HURSAT](Dados_Acesso_HURSAT_GOES16.ipynb)
 
 <p align="center"> Figura 2 - Produto de imagem de evento extremo GOES</p>
-
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/goes.png">
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
 <p align="center"> Figura 3 - Produto de imagem de evento extremo HURSAT</p>
-
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/hursat.png">
 </p>
@@ -102,7 +99,6 @@ O acesso aos dados usados neste trabalho pode ser visto no seguinte notebook, qu
 As imagens a serem utilizadas no treinamento das redes CNNs são caracterizadas por dados de eventos extremos, como ciclones, tornados e furacões. As imagens obtidas neste trabalho são divididas em imagens com eventos e sem eventos extremos, conforme ilustra a Figura 4.
 
 <p align="center"> Figura 4 - Imagens com eventos e sem eventos</p>
-
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/all-img-ev-sv.png">
 </p>
@@ -114,7 +110,6 @@ O notebook a seguir descreve todos os passos para construção do modelo de Deep
 ### [Classificador de Eventos Extremos Utilizando Redes Neurais Convolutivas](Dados_Acesso_HURSAT_GOES16.ipynb)
 
 <p align="center"> Figura 5 - Classificador de Eventos Extremos Utilizando Redes Convolutivas</p>
-
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/Fluxo_Eventos.png">
 </p>
@@ -133,7 +128,6 @@ Os resultados obtidos com a abordagem são descritos na Tab.1. Os testes foram f
 A Figura 6 indica o comportamento do modelo no treinamento e na validação do modelo. A curva revela que o modelo generaliza o conjunto de treinamento em quase 99% das amostras, para o conjunto de teste obtém-se 98,5% na eficiência da classificação.
 
 <p align="center"> Figura 6 - Resultados do Treinamento e Validação</p>
-
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/train.png">
 </p>
@@ -153,7 +147,6 @@ ainda mais o erro obtido anteriormente.
 Em relação às caracteristicas treinadas pela rede convolutiva as Figuras 7 e 8 ilustram como o modelo extraiu as principais caracteristicas do padrão de ciclone e furação para identificar os eventos extremos sem confundir com eventos considerados como alta concentração de nuvens e quando regioes sem nuvens são apresentadas ao classificador.
 
 <p align="center"> Figura 7 - Padrao de Evento Extremo</p>
-
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/pos (5).png">
 </p>
@@ -162,8 +155,20 @@ Em relação às caracteristicas treinadas pela rede convolutiva as Figuras 7 e 
 A figura 8 ilustra a extração do padrão de evento extremo para o treinamento do classificador.
 
 <p align="center"> Figura 8 - Extração de Caracteristicas de Evento Extremo</p>
-
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/pos (3).png">
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
+
+## Referências
+[REF1] G Cybenko.  Continuous valued neural networks with two hidden layers are
+sufficient, department of computer science.
+Trfts. University, 1988.
+
+[REF2] Antônio  de  P ́adua  Braga,  Andr ́e  Carlos  Ponce  de  Leon  Ferreira,  and  Te-
+resa Bernarda Ludermir. Redes neurais artificiais:  teoria e aplicacoes. LTC Editora Rio de Janeiro, Brazil:, 2007.
+
+[REF3] Yann  LeCun,  Yoshua  Bengio,  et  al.   Convolutional  networks  for  images,
+speech, and time series.The handbook of brain theory and neural networks, 3361(10):1995, 1995.
+
+[REF4] Yann LeCun, L ́eon Bottou, Yoshua Bengio, Patrick Haffner, et al. Gradientbased learning applied to document recognition. Proceedings  of  the  IEEE, 86(11):2278–2324, 1998.
