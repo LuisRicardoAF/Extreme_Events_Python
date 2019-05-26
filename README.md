@@ -77,8 +77,20 @@ O treinamento das redes CNNs ocorre de forma similar ao modelo clássico de RNAs
 Desta forma, a aplicação de redes CNNs para avaliação e classificação de objetos em imagens de satélite é justificável. 
 
 ## Dados utilizados e Principais Características
-O acesso aos dados usados neste trabalho pode ser visto no seguinte notebook, que explica cada passo para o acesso e manipulaçã das informações.
+O acesso aos dados usados neste trabalho pode ser visto no seguinte notebook, que explica cada passo para o acesso e manipulaçã das informações. As figuras 2 e 3 representam o produto de dados utilizado nesta aplicação para os dados obtidos do satelite goes e do repositorio HURSAT, respectivamente. 
 
 ### [Manipulando dados brutos GOES E HURSAT](Dados_Acesso_HURSAT_GOES16.ipynb)
 
+<p align="center"> Figura 2 - Produto de imagem de evento extremo GOES</p>
 
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/goes.png">
+</p>
+<p align="center"> Fonte: Produção do Autor. </p>
+
+<p align="center"> Figura 3 - Produto de imagem de evento extremo HURSAT</p>
+
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/hursat.png">
+</p>
+<p align="center"> Fonte: Produção do Autor. </p>
