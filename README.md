@@ -1,4 +1,5 @@
-# SER_347_Trabalho_Final - Luis Ricardo Arantes Filho
+# Detecção de Eventos Climáticos Extremos em Imagens de Satélite Utilizando Redes Neurais Convolutivas
+### SER_347_Trabalho_Final - Luis Ricardo Arantes Filho
 
 ## Introdução
 Este trabalho apresenta uma proposta de análise de eventos extremos em imagens de satélite, 
@@ -110,4 +111,7 @@ O notebook a seguir descreve todos os passos para construção do modelo de Deep
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
+## Resultados
 
+
+## Conclusão
