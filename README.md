@@ -101,6 +101,8 @@ O acesso aos dados usados neste trabalho pode ser visto no seguinte notebook, qu
 O notebook a seguir descreve todos os passos para construção do modelo de Deep Learning para construção do classificador de eventos extremos. A figura 4 ilustra como o processo do tratamento de dados é feito e como os dados são inseridos no modelo de rede neural convolutiva.
 
 
+### [Classificador de Eventos Extremos Utilizando Redes Neurais Convolutivas](Dados_Acesso_HURSAT_GOES16.ipynb)
+
 <p align="center"> Figura 4 - Classificador de Eventos Extremos Utilizando Redes Convolutivas</p>
 
 <p align="center">
