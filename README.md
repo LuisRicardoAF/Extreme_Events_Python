@@ -99,12 +99,21 @@ O acesso aos dados usados neste trabalho pode ser visto no seguinte notebook, qu
 
 ## Solução
 
-O notebook a seguir descreve todos os passos para construção do modelo de Deep Learning para construção do classificador de eventos extremos. A figura 4 ilustra como o processo do tratamento de dados é feito e como os dados são inseridos no modelo de rede neural convolutiva.
+As imagens a serem utilizadas no treinamento das redes CNNs são caracterizadas por dados de eventos extremos, como ciclones, tornados e furacões. As imagens obtidas neste trabalho são divididas em imagens com eventos e sem eventos extremos, conforme ilustra a Figura 4.
+
+<p align="center"> Figura 4 - Imagens com eventos e sem eventos</p>
+
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/all-img-ev-sv.png">
+</p>
+<p align="center"> Fonte: Produção do Autor. </p>
+
+O notebook a seguir descreve todos os passos para construção do modelo de Deep Learning para construção do classificador de eventos extremos. A figura 5 ilustra como o processo do tratamento de dados é feito e como os dados são inseridos no modelo de rede neural convolutiva.
 
 
 ### [Classificador de Eventos Extremos Utilizando Redes Neurais Convolutivas](Dados_Acesso_HURSAT_GOES16.ipynb)
 
-<p align="center"> Figura 4 - Classificador de Eventos Extremos Utilizando Redes Convolutivas</p>
+<p align="center"> Figura 5 - Classificador de Eventos Extremos Utilizando Redes Convolutivas</p>
 
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/Fluxo_Eventos.png">
@@ -121,9 +130,9 @@ Os resultados obtidos com a abordagem são descritos na Tab.1. Os testes foram f
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
-A Figura 5 indica o comportamento do modelo no treinamento e na validação do modelo. A curva revela que o modelo generaliza o conjunto de treinamento em quase 99% das amostras, para o conjunto de teste obtém-se 98,5% na eficiência da classificação. Os índices de precisão indicam o bom desempenho na classificação binária entre evento extremo e não-evento.
+A Figura 6 indica o comportamento do modelo no treinamento e na validação do modelo. A curva revela que o modelo generaliza o conjunto de treinamento em quase 99% das amostras, para o conjunto de teste obtém-se 98,5% na eficiência da classificação. Os índices de precisão indicam o bom desempenho na classificação binária entre evento extremo e não-evento.
 
-<p align="center"> Figura 5 - Resultados do Treinamento e Validação</p>
+<p align="center"> Figura 6 - Resultados do Treinamento e Validação</p>
 
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/train.png">
