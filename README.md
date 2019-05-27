@@ -120,7 +120,7 @@ A arquitetura da rede neural utilizada inspira-se no modelo de Lecun como crité
 
 <p align="center"> Figura 6 - Arquitetura do modelo de Redes Convolutivas</p>
 <p align="center">
-<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/arqui.png">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/arquit.png">
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
