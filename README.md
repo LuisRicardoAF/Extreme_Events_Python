@@ -106,7 +106,7 @@ As imagens a serem utilizadas no treinamento das redes CNNs são caracterizadas 
 
 <p align="center"> Figura 5 - Imagens com eventos Hursat</p>
 <p align="center">
-<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/all-img-ev-sv.png">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/index.png">
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
