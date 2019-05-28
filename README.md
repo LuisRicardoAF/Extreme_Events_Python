@@ -104,9 +104,9 @@ As imagens a serem utilizadas no treinamento das redes CNNs são caracterizadas 
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
-O notebook a seguir descreve todos os passos para construção do modelo de Deep Learning para construção do classificador de eventos extremos. A figura 5 ilustra como o processo do tratamento de dados é feito e como os dados são inseridos no modelo de rede neural convolutiva.
+Os notebooks a seguir descrevem todos os passos para construção do modelo de Deep Learning para construção do classificador de eventos extremos. A figura 5 ilustra como o processo do tratamento de dados é feito e como os dados são inseridos no modelo de rede neural convolutiva.
 
-
+### [Etapa de ajuste de dados e construção dos dataFrames](ajustaVetores.ipynb)
 ### [Classificador de Eventos Extremos Utilizando Redes Neurais Convolutivas](Rede_cnn_eventos_extremos.ipynb)
 
 <p align="center"> Figura 5 - Classificador de Eventos Extremos Utilizando Redes Convolutivas</p>
