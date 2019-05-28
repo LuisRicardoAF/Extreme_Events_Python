@@ -96,7 +96,7 @@ O acesso aos dados usados neste trabalho pode ser visto no seguinte notebook, qu
 
 ## Solução
 
-As imagens a serem utilizadas no treinamento das redes CNNs são caracterizadas por dados de eventos extremos, como ciclones, tornados e furacões. As imagens obtidas neste trabalho são divididas em imagens com eventos e sem eventos extremos, conforme ilustra a Figura 4.
+As imagens a serem utilizadas no treinamento das redes CNNs são caracterizadas por dados de eventos extremos, como ciclones, tornados e furacões. As imagens obtidas neste trabalho são divididas em imagens com eventos e sem eventos extremos, conforme ilustra a Figura 4. A Figura 5 ilustra o produto de imagens do HURSAT, que foram utilizadas para o treinamento dos modelos de eventos extremos.
 
 <p align="center"> Figura 4 - Imagens com eventos e sem eventos</p>
 <p align="center">
@@ -104,21 +104,29 @@ As imagens a serem utilizadas no treinamento das redes CNNs são caracterizadas 
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
-Os notebooks a seguir descrevem todos os passos para construção do modelo de Deep Learning para construção do classificador de eventos extremos. A figura 5 ilustra como o processo do tratamento de dados é feito e como os dados são inseridos no modelo de rede neural convolutiva.
+<p align="center"> Figura 5 - Imagens com eventos Hursat</p>
+<p align="center">
+<img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/all-img-ev-sv.png">
+</p>
+<p align="center"> Fonte: Produção do Autor. </p>
 
+
+Os notebooks a seguir descrevem todos os passos para construção do modelo de Deep Learning para construção do classificador de eventos extremos. A figura 6 ilustra como o processo do tratamento de dados é feito e como os dados são inseridos no modelo de rede neural convolutiva.
+
+### [Etapa de Geração de Imagens do produto HURSAT](Manipulando_Hursat.ipynb)
 ### [Etapa de ajuste de dados e construção dos dataFrames](ajustaVetores.ipynb)
 ### [Classificador de Eventos Extremos Utilizando Redes Neurais Convolutivas](Rede_cnn_eventos_extremos.ipynb)
 
-<p align="center"> Figura 5 - Classificador de Eventos Extremos Utilizando Redes Convolutivas</p>
+<p align="center"> Figura 6 - Classificador de Eventos Extremos Utilizando Redes Convolutivas</p>
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/Fluxo_Eventos.png">
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
-A arquitetura da rede neural utilizada inspira-se no modelo de Lecun como critério de escolha de camadas. Neste trabalho buscamos adotar apenas a modificação das dimensões das camadas. A figura 6 ilustra a arquitetura utilizada.
+A arquitetura da rede neural utilizada inspira-se no modelo de Lecun como critério de escolha de camadas. Neste trabalho buscamos adotar apenas a modificação das dimensões das camadas. A figura 7 ilustra a arquitetura utilizada.
 
 
-<p align="center"> Figura 6 - Arquitetura do modelo de Redes Convolutivas</p>
+<p align="center"> Figura 7 - Arquitetura do modelo de Redes Convolutivas</p>
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/arquit.png">
 </p>
@@ -134,9 +142,9 @@ Os resultados obtidos com a abordagem são descritos na Tab.1. Os testes foram f
 </p>
 <p align="center"> Fonte: Produção do Autor. </p>
 
-A Figura 7 indica o comportamento do modelo no treinamento e na validação do modelo. A curva revela que o modelo generaliza o conjunto de treinamento em quase 99% das amostras, para o conjunto de teste obtém-se 98,5% na eficiência da classificação.
+A Figura 8 indica o comportamento do modelo no treinamento e na validação do modelo. A curva revela que o modelo generaliza o conjunto de treinamento em quase 99% das amostras, para o conjunto de teste obtém-se 98,5% na eficiência da classificação.
 
-<p align="center"> Figura 7 - Resultados do Treinamento e Validação</p>
+<p align="center"> Figura 8 - Resultados do Treinamento e Validação</p>
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/train.png">
 </p>
@@ -153,9 +161,9 @@ que o erro do modelo aumenta significativamente, ou seja, o modelo erra todos os
 exemplos de teste. Após esta anomalia o modelo retorna ao aprendizado diminuindo
 ainda mais o erro obtido anteriormente.
 
-Em relação às caracteristicas treinadas pela rede convolutiva as Figuras 8 e 9 ilustram como o modelo extraiu as principais caracteristicas do padrão de ciclone e furação para identificar os eventos extremos sem confundir com eventos considerados como alta concentração de nuvens e quando regioes sem nuvens são apresentadas ao classificador.
+Em relação às caracteristicas treinadas pela rede convolutiva as Figuras 9 e 10 ilustram como o modelo extraiu as principais caracteristicas do padrão de ciclone e furação para identificar os eventos extremos sem confundir com eventos considerados como alta concentração de nuvens e quando regioes sem nuvens são apresentadas ao classificador.
 
-<p align="center"> Figura 8 - Padrao de Evento Extremo</p>
+<p align="center"> Figura 9 - Padrao de Evento Extremo</p>
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/pos (5).png">
 </p>
@@ -163,7 +171,7 @@ Em relação às caracteristicas treinadas pela rede convolutiva as Figuras 8 e 
 
 A figura 8 ilustra a extração do padrão de evento extremo para o treinamento do classificador.
 
-<p align="center"> Figura 9 - Extração de Caracteristicas de Evento Extremo</p>
+<p align="center"> Figura 10 - Extração de Caracteristicas de Evento Extremo</p>
 <p align="center">
 <img src="https://github.com/LuisRicardoAF/SER_347_Trabalho_Final/blob/master/pos (3).png">
 </p>
